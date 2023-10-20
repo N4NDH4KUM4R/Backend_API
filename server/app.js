@@ -8,7 +8,6 @@ const app = express();
 const userDetailsSchema = require("./userSchema");
 
 // Connect to MongoDB
-
 //Mongodb Atlas only available for 1week after that tha ip address not working
 mongoose.connect(
   "mongodb+srv://nandhakumar:Nandhank@firstcluster.kf16yp4.mongodb.net/?retryWrites=true&w=majority",
